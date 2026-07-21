@@ -1,0 +1,24 @@
+# Dependencies
+client/node_modules/
+server/node_modules/
+
+# Environment Variables
+client/.env
+server/.env
+
+# Build Files
+client/dist/
+server/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Coverage
+coverage/
