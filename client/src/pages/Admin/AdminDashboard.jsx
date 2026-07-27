@@ -175,7 +175,7 @@ const handleAddNotice = async (e) => {
     };
 
     await axios.post(
-      "http://localhost:8000/api/notices",
+      "https://civil-guide-uzq8.onrender.com/api/notices",
       noticeData
     );
 
