@@ -10,7 +10,7 @@ const Updates = () => {
   useEffect(() => {
     const fetchNotices = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/api/notices');
+        const response = await axios.get('https://civil-guide-uzq8.onrender.com/api/notices');
         setUpdatesData(response.data);
       } catch (error) {
         console.error('Error fetching notices:', error);

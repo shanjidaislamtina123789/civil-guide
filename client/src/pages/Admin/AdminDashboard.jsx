@@ -99,7 +99,7 @@ const AdminDashboard = () => {
   const loadNotices = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:8000/api/notices"
+        "https://civil-guide-uzq8.onrender.com/api/notices"
       );
 
       setNotices(res.data);
@@ -209,7 +209,7 @@ const handleDeleteNotice = async (id) => {
   try {
 
     await axios.delete(
-      `http://localhost:8000/api/notices/${id}`
+      `https://civil-guide-uzq8.onrender.com/api/notices/${id}`
     );
 
     await loadNotices();
